@@ -2,7 +2,7 @@
 :root {
     --bg-color: #f5f5f5;
     --card-bg: #ffffff;
-    --primary: #6c3fc5;
+    --primary: #2563eb;
     --text-main: #1a1a2e;
     --border: #e0e0e0;
     --error: #d32f2f;
@@ -13,7 +13,7 @@
 [data-theme="dark"] {
     --bg-color: #121212;
     --card-bg: #1e1e1e;
-    --primary: #8e6ee3;
+    --primary: #60a5fa;
     --text-main: #e0e0e0;
     --border: #333333;
 }
@@ -153,7 +153,7 @@ button { padding: 10px 15px; border-radius: 8px; cursor: pointer; border: none; 
 .cv-preview { border: 1px solid var(--border); padding: 20px; min-height: 500px; background: white; color: black; border-radius: 4px;}
 .template-classico { font-family: serif; text-align: center;}
 .template-moderno { font-family: sans-serif; display: flex; gap: 20px; text-align: left;}
-.template-criativo { font-family: sans-serif; border-top: 10px solid #6c3fc5; text-align: left; }
+.template-criativo { font-family: sans-serif; border-top: 10px solid var(--primary); text-align: left; }
 
 #restore-banner { 
     background: rgba(46, 125, 50, 0.1); padding: 15px; border-bottom: 1px solid var(--success); 
